@@ -49,10 +49,13 @@ body {
   font-family: Gill Sans, sans-serif;
   font-size: 1.2rem;
   padding-top: 9px;
+  color: rgb(132, 165, 157);
 }
 
 .introimage {
+  justify-self: end;
 }
+
 .me {
   height: 450px;
 }
