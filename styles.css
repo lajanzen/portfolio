@@ -9,6 +9,14 @@ body {
   font-size: 16px;
 }
 
+.nav ul {
+  list-style-type: none;
+  color: rgb(245, 202, 195);
+  font-family: Gill Sans, sans-serif;
+  display: grid;
+  grid-template-columns: auto repeat(3, 100px);
+}
+
 .introtext * {
   margin: 0;
 }
