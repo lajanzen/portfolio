@@ -103,7 +103,8 @@ a {
   color: white;
   justify-self: center;
   align-self: center;
-  font-weight: normal;
+  font-weight: bold;
+  font-size: 1.5rem;
 }
 
 #SK {
@@ -119,7 +120,8 @@ a {
 
   justify-self: center;
   align-self: center;
-  font-weight: normal;
+  font-weight: bold;
+  font-size: 1.5rem;
 }
 
 .skillslist {
