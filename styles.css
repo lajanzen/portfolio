@@ -26,17 +26,12 @@ a {
   padding-top: 1%;
   padding-bottom: 1%;
 }
-
 .nav ul {
   list-style-type: none;
   color: rgb(245, 202, 195);
   font-family: Gill Sans, sans-serif;
   display: grid;
   grid-template-columns: auto repeat(3, 100px);
-}
-
-.liste1 {
-  grid-column-start: 2;
 }
 
 .introtext * {
@@ -108,7 +103,8 @@ a {
   color: white;
   justify-self: center;
   align-self: center;
-  font-weight: normal;
+  font-weight: bold;
+  font-size: 1.5rem;
 }
 
 #SK {
@@ -121,10 +117,10 @@ a {
   font-family: Gill Sans, sans-serif;
   font-size: 1.2rem;
   color: white;
-
   justify-self: center;
   align-self: center;
-  font-weight: normal;
+  font-weight: bold;
+  font-size: 1.5rem;
 }
 
 .skillslist {
