@@ -14,13 +14,18 @@ a {
 }
 
 .nav a {
-  color: rgb(245, 202, 195);
+  color: rgb(247, 237, 226);
 }
 
 .nav a:hover {
-  color: rgb(242, 132, 130);
+  color: rgb(246, 189, 96);
 }
 
+.header {
+  background-color: rgb(132, 165, 157);
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
 .nav ul {
   list-style-type: none;
   color: rgb(245, 202, 195);
@@ -34,9 +39,9 @@ a {
 }
 
 .introtext {
-  padding-top: 100px;
+  padding-top: 20%;
   padding-bottom: auto;
-  margin-left: 70px;
+  margin-left: 20%;
   margin-right: 15px;
 }
 
@@ -44,6 +49,8 @@ a {
   background-color: rgb(132, 165, 157);
   display: grid;
   grid-template-columns: 1fr 1fr;
+  height: 450px;
+  color: white;
 }
 
 .hello {
@@ -61,39 +68,39 @@ a {
   font-family: Gill Sans, sans-serif;
   font-size: 1.5rem;
   padding-top: 9px;
-  color: rgb(246, 189, 96);
 }
 
 .introimage {
   justify-self: end;
-  margin-right: 100px;
+  margin-right: 15%;
+  height: 450px;
 }
 
 .me {
-  height: 450px;
+  height: 100%;
 }
 
 #CV {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  background-color: rgb(242, 132, 130);
 }
 
 .CVlist {
   font-family: Gill Sans, sans-serif;
   font-size: 1.2rem;
   color: grey;
+  background-color: white;
   font-weight: lighter;
   line-height: 2;
-  padding: 1.5em 1em 1em 50px;
-  justify-self: center;
+  padding: 10% 10% 10% 15%;
+  width: 100%;
 }
 
 .Curriculum {
-  font-family: sans-serif;
+  font-family: Gill Sans, sans-serif;
   font-size: 1.2rem;
-  color: rgb(132, 165, 157);
-  padding: 5em;
-  border-left: 4px solid rgb(132, 165, 157);
+  color: white;
   justify-self: center;
   align-self: center;
   font-weight: normal;
@@ -102,16 +109,14 @@ a {
 #SK {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  background-color: rgb(247, 237, 226);
-  margin-top: 20px;
+  background-color: rgb(246, 189, 96);
 }
 
 .skills {
-  font-family: sans-serif;
+  font-family: Gill Sans, sans-serif;
   font-size: 1.2rem;
-  color: rgb(132, 165, 157);
-  padding: 5em 6em 5em 1em;
-  border-right: 4px solid rgb(132, 165, 157);
+  color: white;
+
   justify-self: center;
   align-self: center;
   font-weight: normal;
@@ -121,8 +126,22 @@ a {
   font-family: Gill Sans, sans-serif;
   font-size: 1.2rem;
   color: grey;
+  padding: 10% 10% 10% 15%;
+  background-color: white;
   font-weight: lighter;
   line-height: 2;
-  padding: 1.5em 3em 1em 0px;
-  justify-self: center;
+  padding-left: 15%;
+  padding-right: 10%;
+  width: 100%;
+}
+
+.footer {
+}
+.footer ul {
+  list-style-type: none;
+  background-color: rgb (132, 165, 157);
+  color: rgb(245, 202, 195);
+  font-family: Gill Sans, sans-serif;
+  display: grid;
+  grid-template-columns: auto repeat(3, 100px) auto;
 }
