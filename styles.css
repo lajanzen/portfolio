@@ -6,6 +6,7 @@
 
 body {
   margin: 0;
+  font-family: Gill Sans, sans-serif;
 }
 
 .nav a {
@@ -26,7 +27,6 @@ body {
   color: rgb(245, 202, 195);
   margin: 0;
   padding: 20px 0;
-  font-family: Gill Sans, sans-serif;
   display: grid;
   grid-template-columns: auto repeat(3, 100px);
 }
@@ -55,18 +55,15 @@ body {
 }
 
 .hello {
-  font-family: Gill Sans, sans-serif;
   font-size: 1.5rem;
 }
 
 .name {
-  font-family: Gill Sans, sans-serif;
   font-size: 4rem;
   padding-top: 8px;
 }
 
 .subintro {
-  font-family: Gill Sans, sans-serif;
   font-size: 1.5rem;
   font-weight: normal;
   padding-top: 9px;
@@ -88,14 +85,11 @@ h3:hover {
 #CV {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  background-color: rgb(242, 132, 130);
 }
 
 .CVlist {
-  font-family: Gill Sans, sans-serif;
   font-size: 1.2rem;
   color: grey;
-  background-color: white;
   font-weight: lighter;
   line-height: 2;
   padding: 10% 10% 10% 15%;
@@ -103,33 +97,35 @@ h3:hover {
 }
 
 .curriculum {
-  font-family: Gill Sans, sans-serif;
   font-size: 1.2rem;
   color: rgb(79 79 79);
-  justify-self: center;
-  align-self: center;
+  background-color: rgb(242, 132, 130);
   font-weight: bold;
   font-size: 1.2rem;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
 }
 
 #SK {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  background-color: rgb(246, 189, 96);
 }
 
 .skills {
-  font-family: Gill Sans, sans-serif;
   font-size: 1.2rem;
   color: rgb(79 79 79);
-  justify-self: center;
-  align-self: center;
+  background-color: rgb(246, 189, 96);
   font-weight: bold;
   font-size: 1.2rem;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
 }
 
 .skillslist {
-  font-family: Gill Sans, sans-serif;
   font-size: 1.2rem;
   color: grey;
   padding: 10% 10% 10% 15%;
@@ -144,7 +140,6 @@ h3:hover {
 .footer ul {
   list-style-type: none;
   color: rgb(245, 202, 195);
-  font-family: Gill Sans, sans-serif;
   display: grid;
   grid-template-columns: auto repeat(3, 100px) auto;
 }
