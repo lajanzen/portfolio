@@ -31,7 +31,7 @@ body {
   grid-template-columns: auto repeat(3, 100px);
 }
 
-.list1 {
+.nav ul > :first-child {
   grid-column-start: 2;
 }
 
