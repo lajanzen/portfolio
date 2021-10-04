@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: Gill Sans, sans-serif;
@@ -28,21 +32,17 @@ body {
   margin: 0;
   padding: 20px 0;
   display: grid;
-  grid-template-columns: auto repeat(3, 100px);
-}
-
-.nav ul > :first-child {
-  grid-column-start: 2;
+  grid-template-columns: repeat(3, 100px);
+  justify-content: end;
 }
 
 .hero {
   background-color: rgb(132, 165, 157);
   padding-left: 7%;
   padding-right: 7%;
-  height: 450px;
   color: rgb(79 79 79);
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, minmax(10em, 1fr));
 }
 
 .introtext * {
@@ -52,6 +52,7 @@ body {
 .introtext {
   justify-self: center;
   align-self: center;
+  display: grid;
 }
 
 .hello {
@@ -70,12 +71,9 @@ body {
 }
 
 .introimage {
-  justify-self: end;
-  height: 450px;
-}
-
-.me {
-  height: 100%;
+  align-self: flex-end;
+  width: 100%;
+  object-fit: contain;
 }
 
 h3:hover {
