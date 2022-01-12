@@ -72,8 +72,7 @@ body {
 
 .introimage {
   align-self: flex-end;
-  width: 100%;
-  max-width: 20em;
+  width: 20em;
   object-fit: contain;
 }
 
